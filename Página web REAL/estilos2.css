@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container {
+    background: white;
+    height: 200px;
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    line-height: 150px;
+    font-size: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    font-weight: 600;
+}
+
+nav a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#content {
+    float: left;
+    background: white;
+    width: 80%;
+    min-height: auto;
+}
+
+.PPL {
+    margin-left: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 80%;
+    height: auto;
+    font-size: 20px;
+    color: rgb(75, 73, 73);
+}
+
+.PPL img {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 380px;
+    padding-bottom: 15px;
+}
+
+.PPL h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.ArnoldSplit {
+    margin-left: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 80%;
+    height: auto;
+    font-size: 20px;
+    color: rgb(75, 73, 73);
+}
+
+.ArnoldSplit h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+aside {
+    background-color: rgba(194, 194, 195, 0.54);
+    float: right;
+    width: 20%;
+    min-height: auto;
+}
+
+aside h1 {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+aside p {
+    font-weight: 600;
+    padding: 20px 0px 15px 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+footer h1 {
+    font-weight: 600;
+    color: white;
+}
