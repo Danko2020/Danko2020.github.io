@@ -131,14 +131,3 @@ td {
 th {
     background-color: #f2f2f2;
 }
-
-footer {
-    width: 100%;
-    height: 50px;
-    background-color: black;
-}
-
-footer h1 {
-    font-weight: 600;
-    color: white;
-}
